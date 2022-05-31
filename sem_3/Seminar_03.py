@@ -35,7 +35,7 @@ n = int(input('Введите число N: '))
 
 def factors(n):
     nums = []
-    fact = [3, 5, 7, 8]
+    fact = [3, 5, 7]
     while n % 2 == 0:
         nums.append(2)
         n = n / 2
